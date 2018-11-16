@@ -1,0 +1,67 @@
+body{
+
+	margin: 0 auto;
+}
+
+header {
+	width: 100%;	
+}
+.navbar{
+	background-color: #6295DE;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 18px;
+	 
+}
+
+.navbar-dark .navbar-brand{
+	color: white;
+
+}
+
+.navbar-dark .navbar-nav .active>.nav-link:hover{
+	color: #537144;
+	transition: .6s
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	color: white;
+	
+
+}
+
+.navbar-dark .navbar-nav .nav-link.disabled{
+	color: #537144;
+
+}
+
+#Evento{
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;	
+	padding-top: 20px;
+
+
+}
+
+#Evento .media{
+position: center;
+
+
+}
+
+
+}
+
+#Logo {
+	size: 12px;
+}
+
+#Evento .squad{
+	width: 16px;
+	height: 16px;
+	background color: blue ;
+}
+
+.btn .btn-primary .btn-lg .active{
+	object-position: left;
+}
