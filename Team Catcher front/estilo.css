@@ -1,20 +1,40 @@
 body{
 
-	margin: 0 auto;
+	
+}
+footer{
+	width: 100%;
+	height: 8%;
+	color: #6295DE;
 }
 
 header {
 	width: 100%;	
 }
+nav{
+	width: 100%;
+	height: 20%
+	margin: 0 auto;
+}
 .navbar{
 	background-color: #6295DE;
 	font-family: 'Varela Round', sans-serif;
 	font-size: 18px;
+	background-size: cover;: 
+	width: 300%;
 	 
+}
+.navbar .navbar-expand-lg .navbar-dark{
+background-color: #6295DE;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 18px;
+	background-size: cover;: 
+	width: 300%;
 }
 
 .navbar-dark .navbar-brand{
 	color: white;
+	size: cover;
 
 }
 
@@ -44,14 +64,10 @@ header {
 }
 
 #Evento .media{
-position: center;
+margin: 0 auto;
 
 
 }
-
-
-}
-
 #Logo {
 	size: 12px;
 }
@@ -64,4 +80,99 @@ position: center;
 
 .btn .btn-primary .btn-lg .active{
 	object-position: left;
+}
+
+#Background {
+	background-image: url("Imagens/fundoS.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: -5px;
+
+}
+
+#background .container{
+background-color: transparent;
+color: white;	
+text-align: center;
+padding: 60px 10px;
+margin-top: 60px;
+border-radius: 5px;
+box-shadow: 3px 5px 10px black;
+font-family: 'Varela Round', sans-serif;
+text-shadow: 2px 2px 3px black;
+position: static;
+
+
+}
+
+#background .container:hover{
+	background-color: white;
+	color:#6295DE ;
+	transition: .4s;
+	text-shadow: 0px 0px 0px white;
+
+}
+
+#botao .sobre{
+	color: #6295DE;
+	background: white;
+	padding: 6px 9px;
+	border-bottom: currentColor;
+	border-radius: 3px;
+	box-shadow: 0px 1px 3px black;
+	text-shadow: 0px 0px 0px white;
+}
+#Rodape{
+	background-color: #6295DE ; 
+	color: white ;
+	width:100%;
+	height: 130px;
+	margin-top: 700px;
+	
+
+}
+#Rodape2{
+	background-color: white; 
+	color: #6295DE ;
+	width:100%;
+	height: 25px;
+	margin-top: 0px;
+	text-align: center;
+	
+
+}
+#Rodape .text{
+	color: white;
+	margin:  25px;
+	margin-left: 40px;
+	font-style: white;
+	font-family: Arial;
+
+
+}
+#Rodape .text2{
+	color: white;
+	margin:  0 auto;
+	margin-left: 1200px;
+	font-family: Arial;
+
+
+}
+
+}
+a: link{
+	color: white;
+
+}
+a: hover{
+	color: black;
+}
+#Feed .media-body1{
+	padding: 60px 110px;
+	margin: 0 auto;
+	
+	margin-right: 50%;
+	marker-end: 10px;
+	padding: cover;
+
 }
